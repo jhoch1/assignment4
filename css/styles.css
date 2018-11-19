@@ -62,10 +62,33 @@ p {
     color:aliceblue;
 }
 
+form p {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+form label {
+    flex-basis: 20%;
+    margin-left: 30px;
+}
+form input, select {
+    flex: 2;
+    margin: 0 3em;
+    border-radius: 8px;
+}
+
+form select {
+    text-align: center;
+}
 img{
     display: flex;
 }
 
+.radio-buttons {
+    margin-right: 15px;
+    margin-left: 30px;
+    color: white;
+}
 .challenge{
     display: flex;
     flex-direction: column;

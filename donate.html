@@ -27,9 +27,49 @@
                 <p style="margin-left: 30px"> The bears are in need of your help. The ice caps are shrinking, which means a loss of their habitat. Any donations you can make will help save them.</p>
             </div>
             <br>
-            <h4 class="info box1"> Your Information Here</h4>
+            <form>
+            <p>
+                <label for="firstname">First Name: </label>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+            <p>
+                <label for="lastname">Last Name: </label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            <p>
+                <label for="email">E-mail: </label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p>
+                <label for="phone">Phone: </label>
+                <input type="text" name="phone" id="phone">
+            </p>
+            <p>
+                <label for="Donate">Donate:</label>
+                <select name="donate" id="donate">
+                    <option value="$5">$5</option>
+                    <option value="$20">$20</option>
+                    <option value="$50">$50</option>
+                    <option value="$100">$100</option>
+                    <option value="$1000">$1000</option>
+                    <option value="$$100,000,000">$100,000,000</option>
+                    <option value="custom">custom</option>
+                </select>
+                
+            <div class="radio-buttons">
+                <label for="join-newsletter">Would you like to join our newsletter?</label>
+                <input type="radio" name="join-newsletter" value="Yes" checked>Yes
+                <input type="radio" name="join-newsletter" value="No">No
+            </div>
             <br>
-            <h4 class="info box2"> Donate Here</h4>
+
+
+            <p>
+                <label></label>
+                <input type="submit" value="Submit">
+            </p>
+
+        </form>
         </main>
        
     </body>
