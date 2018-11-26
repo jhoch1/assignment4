@@ -84,7 +84,7 @@ img{
     display: flex;
 }
 
-.radio-buttons {
+.radiobutton {
     margin-right: 15px;
     margin-left: 30px;
     color: white;
@@ -127,6 +127,7 @@ img{
     color: #a7d5fd;
 }
 
+}
 #polarbears {
     border: 10px 10px #0670fa;
     box-shadow: 3px 3px #0c0257;

@@ -24,7 +24,7 @@
             <div class="challenge">
                 <h1 style="margin-left: 30px">Donate to the Polar Bears</h1>
                 <br>
-                <p style="margin-left: 30px"> The bears are in need of your help. The ice caps are shrinking, which means a loss of their habitat. Any donations you can make will help save them.</p>
+                <p style="margin-left: 30px"> The bears are in need of your help. The ice caps are shrinking and polar bears are losing their habitat. Any donations you can make will help save their lives.</p>
             </div>
             <br>
             <form>
@@ -38,15 +38,16 @@
             </p>
             <p>
                 <label for="email">E-mail: </label>
-                <input type="text" name="email" id="email">
+                <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
             </p>
             <p>
                 <label for="phone">Phone: </label>
-                <input type="text" name="phone" id="phone">
+                <input type="tel" name="phone" id="phone">
             </p>
             <p>
                 <label for="Donate">Donate:</label>
                 <select name="donate" id="donate">
+                    <option value="chooseamount">Choose Amount</option>
                     <option value="$5">$5</option>
                     <option value="$20">$20</option>
                     <option value="$50">$50</option>
@@ -56,10 +57,15 @@
                     <option value="custom">custom</option>
                 </select>
                 
-            <div class="radio-buttons">
-                <label for="join-newsletter">Would you like to join our newsletter?</label>
-                <input type="radio" name="join-newsletter" value="Yes" checked>Yes
-                <input type="radio" name="join-newsletter" value="No">No
+            <p>
+                <label for="myChoice">Love of Polar Bears: </label>
+                Like<input type="range" name="myChoice" id="myChoice" min="1" max="100" value="35">Love
+            </p>
+                
+            <div class="radiobutton">
+                <label for="join-newsletter">Would you like to join our email list?</label>
+                <input type="radio" name="emaillist" value="Yes" checked>Yes
+                <input type="radio" name="emaillist" value="No">No
             </div>
             <br>
 
