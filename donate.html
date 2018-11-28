@@ -30,11 +30,11 @@
             <form>
             <p>
                 <label for="firstname">First Name: </label>
-                <input type="text" name="firstname" id="firstname">
+                <input type="text" name="firstname" id="firstname" placeholder="john">
             </p>
             <p>
                 <label for="lastname">Last Name: </label>
-                <input type="text" name="lastname" id="lastname">
+                <input type="text" name="lastname" id="lastname" placeholder="doe">
             </p>
             <p>
                 <label for="email">E-mail: </label>
@@ -42,10 +42,10 @@
             </p>
             <p>
                 <label for="phone">Phone: </label>
-                <input type="tel" name="phone" id="phone">
+                <input type="tel" name="phone" id="phone" placeholder="(888)000-0000">
             </p>
             <p>
-                <label for="Donate">Donate:</label>
+                <label for="donate">Donate:</label>
                 <select name="donate" id="donate">
                     <option value="chooseamount">Choose Amount</option>
                     <option value="$5">$5</option>
@@ -57,22 +57,23 @@
                     <option value="custom">custom</option>
                 </select>
                 
-            <p>
+            <p id="slider">
                 <label for="myChoice">Love of Polar Bears: </label>
-                Like<input type="range" name="myChoice" id="myChoice" min="1" max="100" value="35">Love
+                Like<input type="range" name="myChoice" id="myChoice" min="1" max="100" value="25">Love
             </p>
                 
             <div class="radiobutton">
-                <label for="join-newsletter">Would you like to join our email list?</label>
-                <input type="radio" name="emaillist" value="Yes" checked>Yes
-                <input type="radio" name="emaillist" value="No">No
+                 <label for="emaillistyes">Would you like to join our email list?</label>
+                <input type="radio" name="emaillist" id="emaillistyes" value="Yes" checked>Yes
+                <input type="radio" name="emaillist" id="emaillistno" value="No">No
             </div>
             <br>
 
 
-            <p>
-                <label></label>
+            <p id="submit">
+                <label>
                 <input type="submit" value="Submit">
+                </label>
             </p>
 
         </form>
